@@ -14,17 +14,12 @@
         <nav class="nav-bar" id="nav-bar">
 
             
-            <div class="burguer" id="burguer">
+            <div class="burguer" id="burguer" onclick="clickMenu()">
                 <span class="material-symbols-outlined">menu</span>
             </div>
 
-            <div class="logo" id="logo">
-                <h1 class="diguim">DIGUIM</h1>
-                <h2 class="sports">SPORTS</h2>
-            </div>
-            
-            <div class="nav-list" id="nav-list">
-                <ul>
+            <div class="navlist" id="navlist">
+                <ul id="itens">
                     <li class="nav-item" id="nav-item"><a href="#" class="nav-link" id="nav-link">HOME</a></li>
                     <li class="nav-item" id="nav-item"><a href="#" class="nav-link" id="nav-link">PRODUTOS</a></li>
                     <li class="nav-item" id="nav-item"><a href="#" class="nav-link" id="nav-link">SOBRE NÓS</a></li>
@@ -33,20 +28,14 @@
                 <!-- <input type="search" name="barra-busca" id="barra-busca"> -->
             </div>
 
+            <div class="logo" id="logo">
+                <h1 class="diguim" id="diguim">DIGUIM</h1>
+                <h2 class="sports" id="sports">SPORTS</h2>
+            </div>
+            
+
             <div class="login-button" id="login-button">
                 <button><a href="#">Entrar</a></button>
-            </div>
-
-            <div class="mobile-menu" id="mobile-menu">
-                <ul>
-                    <li class="nav-item" id="nav-item"><a href="#" class="nav-link" id="nav-link">HOME</a></li>
-                    <li class="nav-item" id="nav-item"><a href="#" class="nav-link" id="nav-link">PRODUTOS</a></li>
-                    <li class="nav-item" id="nav-item"><a href="#" class="nav-link" id="nav-link">SOBRE NÓS</a></li>
-                    <li class="nav-item" id="nav-item"><a href="#" class="nav-link" id="nav-link">OFERTAS</a></li>
-                </ul>
-                <div class="login-button" id="login-button">
-                    <button><a href="#">Entrar</a></button>
-                </div>
             </div>
 
         </nav>
@@ -57,5 +46,6 @@
     <footer>
 
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
