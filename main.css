@@ -82,6 +82,7 @@
         border: none;
         padding: 10px 15px;
         border-radius: 5px;
+        background-color: #4554F7;
     }
 
     .login-button > button > a{
@@ -101,6 +102,11 @@
 
     .burguer{
         display:none;
+    }
+
+    .logo{
+        position: fixed;
+        top: 7px;
     }
     
     .logo > h1,h2{
@@ -122,14 +128,14 @@
         padding: 15px;
     }
 
-    .nav-list{
+    .navlist{
         display: flex;
         align-items: center;
+        margin: auto;
     }
 
-    .nav-list ul{
+    .navlist ul{
         display: flex;
-        justify-content: center;
         list-style: none;
     }
 
@@ -141,15 +147,15 @@
         text-decoration: none;
     }
 
-    .nav-list > ul > li{
+    .navlist > ul > li{
         margin: 10px;
     }
 
-    .nav-list > ul > li:hover{
+    .navlist > ul > li:hover{
         text-decoration: underline;
     }
 
-    .nav-list > ul > li > a{
+    .navlist > ul > li > a{
         text-decoration: none;
         color: black;
     }
